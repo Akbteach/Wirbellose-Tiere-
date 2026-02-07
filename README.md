@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="de">
 <head>
 <meta charset="UTF-8">
@@ -305,5 +306,6 @@ Biologie 7 · Wirbellose Tiere · Kompetenzorientierter Unterricht
 
 </body>
 </html>
+
 
 
