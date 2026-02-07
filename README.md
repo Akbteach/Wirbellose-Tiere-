@@ -27,47 +27,39 @@ main {
 details {
   background: white;
   border-radius: 8px;
-  margin-bottom: 15px;
-  padding: 10px 15px;
+  margin-bottom: 20px;
+  padding: 15px;
 }
 summary {
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-weight: bold;
   cursor: pointer;
   color: #2e7d32;
 }
-.section {
-  margin-top: 10px;
-}
-.info {
-  background: #f1f8e9;
+.box {
+  margin: 15px 0;
+  padding: 12px;
   border-left: 5px solid #2e7d32;
-  padding: 10px;
-  margin: 10px 0;
+  background: #f1f8e9;
 }
 .task {
   background: #fffde7;
   border-left: 5px solid #fbc02d;
-  padding: 10px;
-  margin: 10px 0;
+}
+.test {
+  background: #ede7f6;
+  border-left: 5px solid #5e35b1;
 }
 .portfolio {
   background: #e3f2fd;
   border-left: 5px solid #1976d2;
-  padding: 10px;
-  margin: 10px 0;
 }
-.reflection {
+.extra {
   background: #fce4ec;
   border-left: 5px solid #c2185b;
-  padding: 10px;
-  margin: 10px 0;
 }
-footer {
-  background: #c8e6c9;
-  text-align: center;
-  padding: 15px;
-  font-size: 0.9em;
+button {
+  margin-top: 8px;
 }
 </style>
 </head>
@@ -76,236 +68,148 @@ footer {
 
 <header>
   <h1>🦋 Biologie 7 – Wirbellose Tiere</h1>
-  <p>Interaktive Unterrichtseinheit · Realschule Niedersachsen</p>
+  <p>Selbstständiges Lernen · Realschule Niedersachsen</p>
 </header>
 
 <main>
 
 <!-- Doppelstunde 1–2 -->
 <details open>
-<summary>Doppelstunde 1–2: Einführung – Wirbellose Tiere</summary>
-<div class="section">
+<summary>Doppelstunde 1–2: Was sind wirbellose Tiere?</summary>
 
-<div class="info">
+<div class="box">
 <b>Lernziele</b>
 <ul>
-<li>Ich weiß, was Wirbellose sind.</li>
+<li>Ich weiß, was „wirbellos“ bedeutet.</li>
 <li>Ich kann Wirbeltiere und Wirbellose unterscheiden.</li>
 <li>Ich kenne wichtige Gruppen der Wirbellosen.</li>
 </ul>
 </div>
 
-<div class="info">
-<b>Infotext</b>
+<div class="box">
+<b>Lerntext</b>
 <p>
-Wirbellose Tiere besitzen keine Wirbelsäule. Zu ihnen gehören unter anderem
-Insekten, Spinnen, Schnecken und Muscheln. Sie machen den größten Teil aller
-Tierarten aus.
+Tiere lassen sich in zwei große Gruppen einteilen: Wirbeltiere und Wirbellose.
+Wirbeltiere besitzen eine Wirbelsäule, zum Beispiel Fische, Vögel oder Säugetiere.
+</p>
+<p>
+Wirbellose Tiere haben <b>keine Wirbelsäule</b>. Zu ihnen gehören Insekten, Spinnen,
+Schnecken, Muscheln, Regenwürmer und viele weitere Tiere.
+</p>
+<p>
+Über 95 % aller bekannten Tierarten sind wirbellos. Besonders erfolgreich sind
+die Insekten, da sie sich gut an verschiedene Lebensräume anpassen können.
 </p>
 </div>
 
-<div class="task">
+<div class="box task">
 <b>Arbeitsaufträge</b>
 <ol>
-<li>Nenne mindestens fünf Wirbellose.</li>
-<li>Ordne Tiere den Gruppen Insekten, Spinnentiere oder Weichtiere zu.</li>
-<li>Warum sind Insekten besonders erfolgreich?</li>
+<li>Erkläre mit eigenen Worten, was ein wirbelloses Tier ist.</li>
+<li>Nenne drei Wirbeltiere und drei Wirbellose.</li>
+<li>Warum sind Insekten so artenreich?</li>
 </ol>
 </div>
 
-<div class="portfolio">
+<div class="box test">
+<b>Selbsttest</b>
+<p>Welche Aussage ist richtig?</p>
+<ul>
+<li>☐ Alle Tiere haben eine Wirbelsäule.</li>
+<li>☑ Insekten gehören zu den Wirbellosen.</li>
+<li>☐ Schnecken sind Wirbeltiere.</li>
+</ul>
+</div>
+
+<div class="box portfolio">
 <b>Portfolio</b>
-<p>Erstelle eine Mindmap zum Thema „Wirbellose Tiere“.</p>
+<p>
+Erstelle eine übersichtliche Tabelle:
+<b>Wirbeltiere – Wirbellose</b> (je 5 Beispiele).
+</p>
 </div>
 
-<div class="reflection">
-<b>Reflexion</b>
-<p>Was hast du heute Neues gelernt?</p>
+<div class="box extra">
+<b>💡 Denk weiter</b>
+<p>
+Warum könnte es für kleine Tiere ein Vorteil sein, keine Wirbelsäule zu haben?
+</p>
 </div>
 
-</div>
 </details>
 
 <!-- Doppelstunde 3–4 -->
 <details>
-<summary>Doppelstunde 3–4: Insekten – Körperbau und Merkmale</summary>
-<div class="section">
+<summary>Doppelstunde 3–4: Insekten – Bau und Merkmale</summary>
 
-<div class="info">
+<div class="box">
 <b>Lernziele</b>
 <ul>
 <li>Ich kenne den Körperbau der Insekten.</li>
-<li>Ich kann Körperteile und Funktionen erklären.</li>
+<li>Ich kann Körperteile und ihre Funktionen erklären.</li>
 </ul>
 </div>
 
-<div class="info">
-<b>Infotext</b>
+<div class="box">
+<b>Lerntext</b>
 <p>
-Insekten besitzen einen dreigeteilten Körper: Kopf, Brust und Hinterleib.
-Sie haben sechs Beine, oft Flügel und verschiedene Mundwerkzeuge.
+Insekten besitzen einen klar gegliederten Körper. Er besteht aus drei Teilen:
+<b>Kopf</b>, <b>Brust (Thorax)</b> und <b>Hinterleib</b>.
+</p>
+<p>
+Am Kopf sitzen die Fühler und Augen. Mit den Fühlern nehmen Insekten Gerüche
+und Berührungen wahr. Die Brust trägt drei Beinpaare und oft ein oder zwei
+Flügelpaare.
+</p>
+<p>
+Der Hinterleib enthält wichtige Organe wie Atmung, Verdauung und Fortpflanzung.
 </p>
 </div>
 
-<div class="task">
+<div class="box task">
 <b>Arbeitsaufträge</b>
 <ol>
-<li>Zeichne ein Insekt und beschrifte es.</li>
-<li>Erkläre die Funktion von Fühlern, Beinen und Flügeln.</li>
-<li>Vergleiche zwei verschiedene Insekten.</li>
+<li>Zeichne ein Insekt und beschrifte Kopf, Brust und Hinterleib.</li>
+<li>Erkläre die Funktion von Fühlern und Beinen.</li>
+<li>Warum sind Flügel für viele Insekten ein Vorteil?</li>
 </ol>
 </div>
 
-<div class="portfolio">
-<b>Portfolio</b>
-<p>Erstelle einen Insekten-Steckbrief.</p>
-</div>
-
-<div class="reflection">
-<b>Reflexion</b>
-<p>Welches Körpermerkmal findest du besonders spannend?</p>
-</div>
-
-</div>
-</details>
-
-<!-- Doppelstunde 5–6 -->
-<details>
-<summary>Doppelstunde 5–6: Entwicklung von Insekten</summary>
-<div class="section">
-
-<div class="info">
-<b>Lernziele</b>
+<div class="box test">
+<b>Selbsttest</b>
+<p>Was gehört zur Brust eines Insekts?</p>
 <ul>
-<li>Ich verstehe die Metamorphose.</li>
-<li>Ich kann Entwicklungsstadien beschreiben.</li>
+<li>☐ Augen</li>
+<li>☑ Beine</li>
+<li>☐ Mundwerkzeuge</li>
 </ul>
 </div>
 
-<div class="info">
-<b>Infotext</b>
+<div class="box portfolio">
+<b>Portfolio</b>
 <p>
-Viele Insekten entwickeln sich über Ei, Larve, Puppe und erwachsenes Tier.
-Dieser Vorgang heißt Metamorphose.
+Erstelle einen Insekten-Steckbrief (z. B. Ameise, Biene, Schmetterling).
 </p>
 </div>
 
-<div class="task">
-<b>Arbeitsaufträge</b>
-<ol>
-<li>Ordne die Entwicklungsstadien richtig.</li>
-<li>Beschreibe jedes Stadium.</li>
-<li>Vergleiche vollständige und unvollständige Metamorphose.</li>
-</ol>
-</div>
-
-<div class="portfolio">
-<b>Portfolio</b>
-<p>Erstelle eine Entwicklungsreihe mit Bildern oder Skizzen.</p>
-</div>
-
-<div class="reflection">
-<b>Reflexion</b>
-<p>Warum ist die Metamorphose ein Vorteil?</p>
-</div>
-
-</div>
-</details>
-
-<!-- Doppelstunde 7–8 -->
-<details>
-<summary>Doppelstunde 7–8: Weichtiere – Schnecken, Muscheln, Tintenfische</summary>
-<div class="section">
-
-<div class="info">
-<b>Lernziele</b>
-<ul>
-<li>Ich kenne die Gruppen der Weichtiere.</li>
-<li>Ich kann Bau und Lebensweise erklären.</li>
-</ul>
-</div>
-
-<div class="info">
-<b>Infotext</b>
+<div class="box extra">
+<b>💡 Denk weiter</b>
 <p>
-Weichtiere besitzen einen weichen Körper. Schnecken haben einen Fuß,
-Muscheln zwei Schalen, Tintenfische Fangarme.
+Warum haben Insekten immer genau sechs Beine – aber nie mehr?
 </p>
 </div>
 
-<div class="task">
-<b>Arbeitsaufträge</b>
-<ol>
-<li>Vergleiche Schnecke, Muschel und Tintenfisch.</li>
-<li>Beschreibe ihre Fortbewegung.</li>
-<li>Ordne Lebensräume zu.</li>
-</ol>
-</div>
-
-<div class="portfolio">
-<b>Portfolio</b>
-<p>Erstelle eine Vergleichstabelle der Weichtiere.</p>
-</div>
-
-<div class="reflection">
-<b>Reflexion</b>
-<p>Welche Anpassung findest du besonders clever?</p>
-</div>
-
-</div>
-</details>
-
-<!-- Doppelstunde 9–10 -->
-<details>
-<summary>Doppelstunde 9–10: Wirbellose im Ökosystem & Nachhaltigkeit</summary>
-<div class="section">
-
-<div class="info">
-<b>Lernziele</b>
-<ul>
-<li>Ich kenne die Rolle von Wirbellosen im Ökosystem.</li>
-<li>Ich kann die Bedeutung für den Menschen erklären.</li>
-</ul>
-</div>
-
-<div class="info">
-<b>Infotext</b>
-<p>
-Wirbellose bestäuben Pflanzen, zersetzen tote Organismen und sind wichtige
-Nahrung für andere Tiere.
-</p>
-</div>
-
-<div class="task">
-<b>Arbeitsaufträge</b>
-<ol>
-<li>Erstelle eine einfache Nahrungskette.</li>
-<li>Erkläre die Rolle von Insekten im Wald.</li>
-<li>Diskutiere: Warum müssen wir Wirbellose schützen?</li>
-</ol>
-</div>
-
-<div class="portfolio">
-<b>Portfolio</b>
-<p>Schreibe eine Reflexion zum Thema Artenschutz.</p>
-</div>
-
-<div class="reflection">
-<b>Reflexion</b>
-<p>Was kannst du persönlich zum Schutz beitragen?</p>
-</div>
-
-</div>
 </details>
 
 </main>
 
 <footer>
-Biologie 7 · Wirbellose Tiere · Kompetenzorientierter Unterricht
+Biologie 7 · Wirbellose Tiere · kompetenzorientiert
 </footer>
 
 </body>
 </html>
+
 
 
 
